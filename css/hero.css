@@ -25,8 +25,8 @@ h1,h2{
     margin-right: auto;
   }
   header img{
-      border-radius: 250px;
-      border: #def702 solid 15px;
+      border-radius: 300px;
+      border: #def702 solid 25px;
       }
 
       main{
@@ -56,4 +56,14 @@ h1,h2{
           text-align: center;
           background-color: #6f3348;
           color: white;
+          padding: 50px;
+      }
+      footer p{
+          margin:0;
+      }
+      ol{
+          font-size: 30px;
+      }
+      li{
+          font-size: 30px;
       }

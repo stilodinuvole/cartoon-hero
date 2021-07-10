@@ -40,6 +40,7 @@ h1,h2{
       h2{
           font-size: 50px;
           color:#a04242;
+          margin: 40px 0px 10px;
       }
       p{
           font-size: 30px;
@@ -65,5 +66,34 @@ h1,h2{
           font-size: 30px;
       }
       li{
-          font-size: 30px;
-      }
+          font-size: 30px;}
+      h1{
+            animation-duration: 3s;
+            animation-name: slidein;
+          }
+          
+          @keyframes slidein {
+            from {
+              margin-left: 100%;
+              width: 300%;
+            }
+          
+            to {
+              margin-left: 0%;
+              width: 100%;
+            }
+          }
+          
+      /* The animation code */
+@keyframes example {
+    0%   { left:-600px; top:-600px;}
+    60%  { left:200px; top:200px;}
+    100% { left:0px; top:0px;}
+  }
+  
+  /* The element to apply the animation to */
+  header img {
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+  }    
